@@ -13,13 +13,11 @@ body, html{
 
 }
 
-
 .container{
     width: 80%;
     border: 1px solid black;
     margin: 0 auto;
 }
-
 
 /* Header section*/
 .header{
@@ -37,7 +35,6 @@ body, html{
     background-color: rgba(0, 22, 40, 0.7);
     color: whitesmoke;
 }
-
 
 /* Barra de navegacion */
 
