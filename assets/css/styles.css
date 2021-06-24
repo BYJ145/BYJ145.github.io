@@ -75,6 +75,33 @@ nav{
 
 
 
+/* Go to element*/
+.gotop{
+  position: fixed;
+  bottom: 4rem;
+  right: 1rem;
+  width: 4rem;
+  height: 4rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.gotop i{
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  display: none;
+}
+.gotop i::before{
+  content: url('../icons/arrow-circle-up.svg');
+}
+
+.show i{
+  display: inline-block;
+/*   animation-name: circle;
+  animation-duration: 1s;
+  animation-timing-function: ease; */
+}
 
 /* Media querys */
 
